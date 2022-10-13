@@ -4,6 +4,8 @@
   "description": "A Netlify plugin for reporting deployment related events into GitHub",
   "scripts": {
     "lint": "eslint .",
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier --check .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
