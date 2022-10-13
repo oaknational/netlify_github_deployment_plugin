@@ -1,0 +1,30 @@
+{
+  "name": "@oaknational/netlify_github_deployment_plugin",
+  "version": "0.0.1",
+  "description": "A Netlify plugin for reporting deployment related events into GitHub",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oaknational/netlify_github_deployment_plugin.git"
+  },
+  "keywords": [
+    "Netlify",
+    "GitHub",
+    "plugin",
+    "deployment",
+    "deployment_status",
+    "events",
+    "CI/CD"
+  ],
+  "author": "@jimCresswell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oaknational/netlify_github_deployment_plugin/issues"
+  },
+  "homepage": "https://github.com/oaknational/netlify_github_deployment_plugin#readme",
+  "dependencies": {
+    "@actions/github": "^5.1.1"
+  }
+}
