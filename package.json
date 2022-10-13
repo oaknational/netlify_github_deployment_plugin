@@ -2,6 +2,7 @@
   "name": "@oaknational/netlify_github_deployment_plugin",
   "version": "0.0.1",
   "description": "A Netlify plugin for reporting deployment related events into GitHub",
+  "private": true,
   "scripts": {
     "lint": "eslint .",
     "prettier": "prettier --write .",
@@ -28,13 +29,13 @@
   },
   "homepage": "https://github.com/oaknational/netlify_github_deployment_plugin#readme",
   "dependencies": {
-    "@actions/github": "^5.1.1",
-    "eslint-plugin-jest": "^27.1.1"
+    "@actions/github": "^5.1.1"
   },
   "devDependencies": {
     "@types/jest": "^23.1.2",
     "eslint": "^8.25.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^27.1.1",
     "eslint-plugin-prettier": "^4.2.1",
     "jest": "^29.1.2"
   }
