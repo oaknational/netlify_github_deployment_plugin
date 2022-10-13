@@ -3,8 +3,14 @@ module.exports = {
     node: true,
     commonjs: true,
     es2021: true,
+    "jest/globals": true,
   },
-  extends: ["eslint:recommended", "prettier"],
+  extends: [
+    "eslint:recommended",
+    "prettier",
+    "jest",
+    "plugin:jest/recommended",
+  ],
   overrides: [],
   parserOptions: {
     ecmaVersion: "latest",

@@ -18,6 +18,22 @@ const DEPLOY_CONTEXTS = {
   dev: "dev",
 };
 
+/**
+ * @typedef {function} NetlifyBuildHook
+ * @async
+ * @returns {Promise}
+ */
+/**
+ * @typedef {object} NetlifyHooks A collection of Netlify build hooks.
+ * Note, this isn't all the possible build hooks.
+ * @property {NetlifyBuildHook} onPreBuild
+ * @property {NetlifyBuildHook} onError
+ * @property {NetlifyBuildHook} onSuccess
+ */
+/**
+ * The Oak Netlify GitHub deployment event plugin.
+ * @returns {NetlifyHooks} Functions to run on Netlify build stage hooks
+ */
 module.exports = function githubDeploymentPlugin() {
   let deploymentInfo = {};
 
