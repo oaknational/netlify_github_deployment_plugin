@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A Netlify plugin for reporting deployment related events into GitHub",
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +27,10 @@
   "homepage": "https://github.com/oaknational/netlify_github_deployment_plugin#readme",
   "dependencies": {
     "@actions/github": "^5.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1"
   }
 }
