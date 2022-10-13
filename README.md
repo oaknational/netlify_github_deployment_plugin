@@ -6,6 +6,8 @@ Located in [`netlify/plugins/github-deployments`](netlify/plugins/github-deploym
 
 Requires an env variable called `GITHUB_DEPLOYMENT_TOKEN` to exist containing a [GitHub PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) with repo permissions.
 
+An example GitHub workflow triggered from a `deployment_status` event can be found [here](.github/workflows/post_deployment_actions.yml).
+
 ## Further Reading
 
 - [Netlify Custom Plugin Docs](https://docs.netlify.com/integrations/build-plugins/create-plugins/)
